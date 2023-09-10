@@ -1,0 +1,20 @@
+<main class=" portfolio d-flex align-items-end justify-content-center">
+    <div class="  container-fluid d-flex justify-content-center align-items-center">
+        <div class=" row text-center">
+            <div class=" col-12">
+                <h1>PORTFOLIO COMPONENT</h1>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <app-star class="black-star"></app-star>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12 " *ngFor="let item of portfolioModel">
+                <app-portofolio-item [modalId]="item.modalId" [imageSrc]="item.imageSrc"></app-portofolio-item>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<div *ngFor="let item of portfolioItems">
+    <app-model-portfolio [modalId]="item.modalId" [imageSrc]="item.imageSrc"></app-model-portfolio>
+</div>

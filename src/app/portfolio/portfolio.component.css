@@ -1,0 +1,8 @@
+.portfolio {
+  min-height: 130vh;
+  background-color: #ffffff;
+}
+
+.black-star {
+  --star-color: black;
+}

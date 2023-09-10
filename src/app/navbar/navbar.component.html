@@ -1,0 +1,25 @@
+<nav class="navbar  fixed-top position-fixed navbar-expand-sm navbar-dark text-white bg-dark-blue">
+    <div class="container py-4" [ngClass]="{'scrolled': isScrolled}" (window:scroll)="onWindowScroll()">
+        <a class="navbar-brand h1 fw-bolder" routerLink="home">START FRAMEWORK</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                <li class="nav-item" routerLinkActive="bg-main  border border-1 rounded-3 ">
+                    <a class="nav-link text-white fw-bolder" routerLink="about">ABOUT</a>
+                </li>
+                <li class="nav-item" routerLinkActive="bg-main  border border-1 rounded-3 ">
+                    <a class="nav-link text-white fw-bolder" routerLink="portfolio">PORTFOLIO</a>
+                </li>
+                <li class="nav-item" routerLinkActive="bg-main  border border-1 rounded-3 ">
+                    <a class="nav-link text-white fw-bolder" routerLink="contact">CONTACT</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>

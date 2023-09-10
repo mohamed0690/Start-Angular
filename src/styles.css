@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --bg-dark-blue: #2c3e50;
+  --bg-main: #1abc9c;
+  --bg-navy: #1a252f;
+  --star-color: #fff;
+}
+* {
+  font-family: system-ui, -apple-system;
+}
+h1 {
+  font-size: 32px;
+}
+.bg-dark-blue {
+  background-color: var(--bg-dark-blue);
+}
+.bg-main {
+  background-color: var(--bg-main);
+}
+.bg-navy {
+  background-color: var(--bg-navy);
+}
+.star-color {
+  color: var(--star-color);
+}
+.star-color-bg {
+  background-color: var(--star-color);
+}
