@@ -1,4 +1,5 @@
 # StartFramework
+<img src="https://res.cloudinary.com/dcqttctnu/image/upload/v1694421704/screencapture-localhost-4200-home-2023-09-11-11_40_32_vn2j2z.png" alt="Search TextInput" width="100%" height="" /> 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
