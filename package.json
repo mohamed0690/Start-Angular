@@ -3,8 +3,6 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -12,7 +10,6 @@
   },
   "private": true,
   "dependencies": {
-    "homepage": "https://mohamed0690.github.io/Start-Angular",
     "@angular/animations": "^16.1.0",
     "@angular/common": "^16.1.0",
     "@angular/compiler": "^16.1.0",
